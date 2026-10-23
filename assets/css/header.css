@@ -1,0 +1,156 @@
+.header-warning{
+    background-color:#000;
+    padding:16px 0;
+    color:#fff;
+    text-align:center;
+}
+
+.header-warning span{
+    font-weight:bold;
+}
+
+.header-warning .desktop{
+    display:none;
+}
+
+header{
+    background-color:#FFF;
+}
+
+header .header-main{
+    max-width:1024px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:33px 24px;
+}
+
+header .header-left{
+    display:flex;
+    align-items:center;
+}
+
+header .header-right{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+header .header-right .btn-icon:hover{
+    background-color:rgba(0,0,0,0.03);
+}
+
+header .header-left .logo{
+    margin-right:40px;
+}
+
+header .header-left ul{
+   display:none;
+   align-items:center;
+   gap:40px;
+}
+
+header .header-left ul li a{
+    text-decoration:none;
+    color:#7F7F7F;
+}
+
+header .header-left ul li a:hover{
+    color:#000;
+}
+
+
+header .header-right .search,
+header .mobile-search .search{
+    display:none;
+    height:48px;
+    width:170px;
+    border:1px solid #D9D9D9;
+    border-radius:4px;
+    background-image:url("../imagem/ui/search.png");
+    background-repeat:no-repeat;
+    background-position:16px center;
+    background-size:24px 24px;
+    padding-left:45px;
+    padding-right:16px;
+    outline:none;
+}
+header .mobile-search{
+    padding:0 24px 24px 24px;
+}
+
+header .mobile-search .search{
+    display:block;
+    width:100%;
+}
+
+.header-menu{
+    display:none;
+    padding-bottom:32px;
+}
+
+header .header-right .menu-burger.active {
+    background-color:#1D4FFE;
+}
+
+.menu-burger .on{
+    display:none;
+}
+
+.menu-burger.active .on{
+    display:block;
+}
+
+.menu-burger.active .of{
+    display:none;
+}
+
+
+.header-menu a{
+    text-decoration:none;
+    display:block;
+    color:#7F7F7F;
+    padding:24px 32px;
+    border-bottom:1px solid #D9D9D9;
+    font-size:1.9rem;
+    background-image:url("../imagem/ui/arrow-up-right.png");
+    background-repeat:no-repeat;
+    background-size:24px 24px;
+    background-position:right 32px center;
+    
+}
+
+
+@media(width > 714px){
+    .header-warning .desktop{
+        display:block;
+    }
+
+    .header-warning .mobile{
+        display:none;
+    }
+}
+
+
+@media(width > 1024px){
+    header .header-left ul{
+   display:flex;
+}
+
+header .header-right .menu-burger{
+    display:none;
+}
+
+header .header-right .search{
+    display:block;
+}
+
+header .mobile-search{
+    display:none;
+}
+
+.header-menu{
+    display:none !important;
+}
+}
