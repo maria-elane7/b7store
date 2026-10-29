@@ -1,0 +1,140 @@
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer-menu,
+.footer-contacts,
+.footer-bottom {
+  padding: 48px 0;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 128px;
+}
+
+.footer-menu ul {
+  margin-top: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.footer-menu li a {
+  font-size: 2rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts .footer-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 74px;
+}
+
+.footer-contacts
+ .footer-title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.footer-contacts 
+.footer-icons-text {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+  padding: 0 25px;
+}
+
+.footer-contacts 
+.footer-icons-text {
+  height: 88px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-icons-text img{
+    width:32px;
+    height:32px;
+}
+
+.social .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+}
+
+.bottom-text {
+  width: 270px;
+}
+
+@media (width > 1024px) {
+  .footer-menu {
+    padding-top: 63px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-menu ul {
+    margin-top: 0;
+    flex-direction: row;
+  }
+
+  .footer-contacts {
+    flex-direction: row;
+  }
+
+  .contacts {
+    flex: 1;
+  }
+
+  .contacts .footer-icons {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .contacts .footer-title {
+    text-align: start;
+  }
+
+  .footer-bottom{
+    flex-direction:row;
+    justify-content:space-between;
+  }
+
+  .bottom-text{
+    width:auto;
+  }
+}
