@@ -1,0 +1,67 @@
+/* ÁREA BANNER */
+.banner{
+    margin:0 24px;
+}
+
+.banner-area{
+    width:100%;
+    aspect-ratio:2.9;
+    position:relative;
+}
+
+.banner-area a{
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+}
+
+.banner-area a img{
+    width:100%;
+}
+
+.banner-area a.active{
+    z-index:10;
+}
+
+
+.banner-counter-area{
+    display:flex;
+    justify-content: center;
+}
+
+
+.banner-counter{
+    display:inline-flex;
+    gap:10px;
+    padding:10px;
+    margin-top:15px;
+    border-radius:25px;
+    background-color:rgba(0,0,0,0.3);
+}
+
+
+.banner-counter-item{
+    width:28px;
+    height:28px;
+    border:2px solid #FFF;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    opacity:0.3;
+}
+
+
+.banner-counter-point{
+    width:8px;
+    height:8px;
+    background-color:#FFF;
+    border-radius:50%;
+}
+
+.banner-counter-item.active{
+    opacity:1;
+}
