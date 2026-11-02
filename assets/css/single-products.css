@@ -1,57 +1,73 @@
-.product-item{
-    background-color:#FFF;
-    border:1px solid #D9D9D9;
-    border-radius:9px;
-    padding:34px;
-    position:relative;
+.product-item {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 9px;
+  padding: 34px;
+  position: relative;
 }
 
-
-.product-item a{
-    text-decoration:none;
-    display:block;
+.product-item a {
+  text-decoration: none;
+  display: block;
 }
 
-.product-item .product-photo img{
-   width:100%;
+.product-item .product-photo img {
+  width: 100%;
 }
 
-.product-item .product-name{
-    font-size:1.8rem;
-    font-weight:500;
-    color:#000;
-    margin-top:41px;
+.product-item .product-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 41px;
 }
 
-.product-item .product-price{
-    font-size:2.4rem;
-    font-weight:600;
-    color:#1D4FFE;
-    margin:8px 0;
+.product-item .product-price {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #1d4ffe;
+  margin: 8px 0;
 }
 
-.product-item .product-info{
-    font-size:1.8rem;
-    color:#7F7F7F;
+.product-item .product-info {
+  font-size: 1.8rem;
+  color: #7f7f7f;
 }
 
-.product-item .product-fav{
-    border:1px solid #B0B0B0;
-    width:51px;
-    height:51px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border-radius:4px;
-    position:absolute;
-    top:26px;
-    right:26px;
-    cursor:pointer;
-
+.product-item .product-fav {
+  background-color: #fff;
+  border: 1px solid #b0b0b0;
+  width: 51px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  position: absolute;
+  top: 26px;
+  right: 26px;
+  cursor: pointer;
 }
 
-.product-item .product-fav img{
-    width:25px;
-    height:25px;
+.product-item .product-fav img {
+  width: 25px;
+  height: 25px;
 }
 
+@media (width > 1024px) {
+  .product-item {
+    padding: 20px;
+  }
+
+  .product-item .product-fav {
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .product-item .product-fav img {
+    width: 20px;
+    height: 20px;
+  }
+}

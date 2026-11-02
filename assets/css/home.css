@@ -137,6 +137,9 @@
 
 .products-area{
     margin-top:32px;
+    display:flex;
+    flex-direction:column;
+    gap:32px;
 }
 
 @media(width > 1024px){
@@ -158,6 +161,7 @@
 
     .products-area{
         margin-top:40px;
+        flex-direction:row;
     }
 
 
