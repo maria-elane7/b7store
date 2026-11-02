@@ -66,7 +66,7 @@
     opacity:1;
 }
 
-
+/* ÁREA WARNINGS */
 .warnings{
     display:flex;
     flex-direction:column;
@@ -113,5 +113,53 @@
         padding-left:0;
         margin-right:20px;
     }
+}
+
+/* ÁREA PRODUCTS */
+
+.products-list{
+    margin:24px;
+}
+
+.products-list h4{
+    text-align:center;
+    font-size:1.8rem;
+    font-weight:500;
+}
+
+
+.products-list h5{
+    text-align:center;
+    font-size:1.2rem;
+    font-weight:normal;
+    color:#7F7F7F;
+}
+
+.products-area{
+    margin-top:32px;
+}
+
+@media(width > 1024px){
+    .products-list{
+        margin-top:59px;
+    }
+    .products-list h4,
+    .products-list h5{
+        text-align:left;
+    }
+
+    .products-list h4{
+        font-size:2.4rem;
+    }
+
+    .products-list h5{
+        font-size:1.6rem;
+    }
+
+    .products-area{
+        margin-top:40px;
+    }
+
+
 }
 
