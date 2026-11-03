@@ -1,0 +1,90 @@
+/* ÁREA BREANDCRUMB */
+
+.breandcrumb {
+  margin: 0 24px;
+  font-size: 1.6rem;
+  color: #7f7f7f;
+}
+
+.info {
+  margin: 0 24px;
+}
+
+.info .product-qt {
+  color: #000;
+  font-size: 2.4rem;
+  margin-top: 24px;
+}
+
+.info .product-qt span {
+  font-weight: bold;
+}
+
+.top-buttons {
+  margin-top: 19px;
+  display: flex;
+  gap: 20px;
+}
+
+.top-button {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.top-button .top-button-name {
+  flex: 1;
+  font-size: 1.6rem;
+  color: #7f7f7f;
+}
+
+.top-button .top-button-icon {
+  display: flex;
+  align-items: center;
+}
+
+.info .ordem-area {
+  display:none;
+}
+
+.info .ordem-area label {
+  display: block;
+  font-size: 1.6rem;
+  color: #7f7f7f;
+  margin-bottom:8px;
+}
+
+.info .ordem-area select {
+ width:100%;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  outline:none;
+  padding: 16px 24px;
+  font-size:1.6rem;
+  color:#7F7F7F;
+}
+
+@media (width > 1024px) {
+    .info {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+  .breandcrumb {
+    margin-top: 32px;
+  }
+
+  .top-button {
+    display: none;
+  }
+
+  .info .ordem-area{
+    display:block;
+  }
+}
