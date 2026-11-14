@@ -98,6 +98,15 @@
   color: #000;
 }
 
+.filter-icon{
+  cursor:pointer;
+  transition: transform 0.3s ease;
+}
+
+.filter-icon.open-close{
+  transform: rotate(180deg);
+}
+
 .filter-option {
   display: flex;
   align-items: center;
@@ -134,7 +143,7 @@
   }
 
   .info .ordem-area {
-    display: block;
+    display: block !important;
   }
 
   /* ÁREA DO FILTRO */
@@ -143,7 +152,7 @@
   }
 
   .filters{
-    display:block;
+    display:block !important;
   }
 
   /* ÁREA DO GRID DOS PRODUTOS */
