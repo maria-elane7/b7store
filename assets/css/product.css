@@ -47,6 +47,10 @@
     margin-bottom:32px;
 }
 
+.product .info .size .btn-icon:hover{
+    background-color:rgba(0,0,0,0.03);
+}
+
 .product .info .size .size-buttons{
     display:flex;
     gap:16px;
