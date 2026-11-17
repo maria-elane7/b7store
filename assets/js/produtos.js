@@ -44,7 +44,7 @@ filters.forEach((arrowFilter)=>{
             arrowFilter.classList.remove("open-close");
         }else{
             item.style.display = "none";
-            arrowFilter.classList.add("open-close");
+            arrowFilter .classList.add("open-close");
         }
     })
 })
