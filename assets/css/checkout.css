@@ -1,0 +1,143 @@
+.checkout-header {
+  margin: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.checkout-header span {
+  color: #7f7f7f;
+}
+
+.checkout {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.checkout .products {
+  flex: 1;
+}
+
+.checkout .info {
+  margin: 0 24px;
+}
+
+.info .shipping-area
+ .shipping-text {
+  color: #7f7f7f;
+  font-size: 1.6rem;
+}
+
+.info .shipping-area 
+.shipping-input {
+  display: flex;
+  gap: 16px;
+  margin-top: 11px;
+  
+}
+
+.info .shipping-area
+.shipping-input .input{
+    flex:1;
+}
+
+.info .shipping-result {
+  background-color: #fff;
+  margin: 16px 0;
+  padding:24px 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.info .shipping-result .shipping-address {
+  font-size: 1rem;
+  color: #7f7f7f;
+  margin-bottom: 12px;
+}
+
+.info .shipping-result .area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info .shipping-result .area .left {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.info .shipping-result .area .right {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #6ab70a;
+}
+
+.info .subtotal {
+  background-color: #fff;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.info .subtotal {
+  padding:24px 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.info .subtotal .area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:19px;
+}
+
+.info .subtotal .area .right {
+  font-weight: 600;
+}
+
+.info .subtotal .total {
+  border-top: 1px solid #d9d9d9;
+  padding-top:19px;
+}
+
+.info .subtotal .area .bigtotal {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #1d4ffe;
+}
+
+.info .subtotal .payment {
+  font-size: 1.2rem;
+  color: #7f7f7f;
+  margin-bottom: 21px;
+  text-align: right;
+}
+
+.info .subtotal .button {
+  text-align: center;
+}
+
+.info .subtotal .link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #7f7f7f;
+ margin-top:24px;
+}
+
+@media (width > 1024px) {
+  .checkout {
+    flex-direction: row;
+  }
+
+  .checkout .info {
+    width: 384px;
+  }
+}
